@@ -12,10 +12,8 @@ const fibonacci = function(number) {
         b = a + b;
         a = c;
     }
-    // console.log(b);
     return b;
 };
 
-// fibonacci(4);
 // Do not edit below this line
 module.exports = fibonacci;
